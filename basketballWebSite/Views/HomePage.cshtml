@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+	background-color:black;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+div.fourBox{
+max-height: 1000px;
+height: 75%;
+align-items: center;
+}
+
+div.w3-container.fourBox{
+ 
+display: inline-block; 
+width:24.5%; 
+border:.5px solid; 
+vertical-align:top
+border-left-width: thick;
+border-color: black;
+height: 100px;
+background-color: orange;
+overflow: hidden;
+}
+h3{
+color: white;
+}
+button.w3-button{
+background-color: orange;
+height: 100%;
+width: 100%;
+color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>La Crosse Central Basketball Assoication</h1>
+</header>
+  
+    <div class="fourBox">
+        <div class="w3-container fourBox">
+          <button class="w3-button" onclick="javascript:window.location.href= signUp.cshtml">View full schedule</button>
+		</div>
+				
+        <div class="w3-container fourBox" id="demo">
+          <button class="w3-button" onclick="myFunction() ">Sign up for events</button>
+		</div>
+		
+        <div class="w3-container fourBox">
+          <button class="w3-button">More Info</button>
+        </div>
+				
+        <div class="w3-container fourBox">
+            <img scr="http://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-basketball.png&w=288&h=288&transparent=true" alt="Basketball" style="width:50px;height:50px;">     
+    </div>
+		</div>
+    <h3>Welcome to the La Crosse Youth Basketball employe scheduling website, here you can view your schedule and sign up for more dates!</h3>
+
+</div>
+
+</body>
+
+	
+</html>
+
+<script>
+            function myFunction() {
+            window.location.href= signUp.cshtml
+            }
+          </script>
