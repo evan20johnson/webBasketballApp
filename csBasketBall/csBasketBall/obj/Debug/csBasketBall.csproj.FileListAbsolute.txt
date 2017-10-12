@@ -1,0 +1,2 @@
+/Users/evanjohnson/Documents/CS227/csBasketBall/csBasketBall/obj/Debug/csBasketBall.csprojResolveAssemblyReference.cache
+/Users/evanjohnson/Documents/CS227/csBasketBall/csBasketBall/obj/Debug/csBasketBall.csproj.CoreCompileInputs.cache
